@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" 
-    rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .top {
+        background: url("img/monitorandkeyboard.png") center / cover fixed;
+      }
+    </style>
     <title>/*Cheats for programming*/</title>
   </head>
 
   <body>
-    <div class="top">
+    <header class="top">
       <div class="header">
         <div class="container">
           <nav class="header-row">
@@ -24,10 +31,10 @@
               <li class="header-link">About</li>
               <li class="header-link">Contacts</li>
             </ul>
-        </nav>
+          </nav>
         </div>
       </div>
-      <section class="about">
+      <main class="about">
         <div class="container">
           <div class="about-row">
             <div class="about-image"></div>
@@ -41,44 +48,57 @@
             </div>
           </div>
         </div>
-    </section>
-    </div>
+      </main>
+    </header>
     <section class="information">
       <div class="container">
         <h2 class="information-title">Some information</h2>
-        <div class="information-row">
-          <div class="information-column">
+        <ul class="information-row">
+          <li class="information-column">
             <a
-            href="https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid
-            =1540326000&sr=8-3&keywords=think+like+a+programmer" 
-            class="information-image">
-            <img  class="img" src="./img/think_like.jpg" alt="The Programming Book" 
-            width="200px" height="200">
+              href="https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid
+            =1540326000&sr=8-3&keywords=think+like+a+programmer"
+              class="information-image"
+            >
+              <img
+                class="img"
+                src="./img/think_like.jpg"
+                alt="The Programming Book"
+                width="200px"
+                height="200"
+                >
             </a>
-            <div class="information-text">
-                The real challenge of programming isn't learning a language's syntax—<br>
-                <em>it's learning to creatively solve problems.</em>
-            </div>
-          </div>
-          <div class="information-column">
+            <p class="information-text">
+              The real challenge of programming isn't learning a language's
+              syntax—<br />
+              <em>it's learning to creatively solve problems.</em>
+            </p>
+          </li>
+          <li class="information-column">
             <a href="#" class="information-image"></a>
             <div class="information-text">
               this is a beautiful picture of a big city
             </div>
-          </div>
-          <div class="information-column">
+        </li>
+          <li class="information-column">
             <a href="#" class="information-image"></a>
             <div class="information-text">
               this is a beautiful picture of a big city
             </div>
-          </div>
-          <div class="information-column">
+        </li>
+          <li class="information-column">
             <a href="#" class="information-image"></a>
             <div class="information-text">
               this is a beautiful picture of a big city
             </div>
-          </div>
-        </div>
+        </li>
+        <li class="information-column">
+            <a href="#" class="information-image"></a>
+            <div class="information-text">
+              this is a beautiful picture of a big city
+            </div>
+        </li>
+        </ul>
       </div>
     </section>
     <div class="quote">
@@ -104,14 +124,20 @@
     </div>
     <footer>
       <p class="footer-text">Copyright © The Odin Project 2022</p>
-      <br>
+      <br />
       <p class="footer-text">
         Made special for
-        <a class="span-name-odin" href="https://www.theodinproject.com/lessons/foundations-landing-page"
-        > The Odin Project
-      </a>
-      by <a href="https://github.com/TEZv"><span class="span-name">TEZv </span></a>/Thursday 10 Nov
-        </p>
+        <a
+          class="span-name-odin"
+          href="https://www.theodinproject.com/lessons/foundations-landing-page"
+        >
+          The Odin Project
+        </a>
+        by
+        <a href="https://github.com/TEZv"
+          ><span class="span-name">TEZv </span></a
+        >/Thursday 10 Nov
+      </p>
     </footer>
   </body>
 </html>
