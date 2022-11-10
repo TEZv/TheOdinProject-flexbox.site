@@ -1,5 +1,12 @@
 :root {
-    
+    --black-color: #000;
+    --tr-black-color: rgba(0, 0, 0, 0.436);
+    --white-color: #fff;
+    --white-grey-color: #e5e7eb;
+    --grey-color: rgb(201, 201, 201);
+    --dark-pink-color: #ee447d;
+    --light-blue-color: #2d68c7;
+    --dark-blue-color: #3882f6;
 }
 
 body {
@@ -66,7 +73,7 @@ body {
     display: block;
     width: auto;
     height: 2px;
-    background-color: #000;
+    background-color: var(--black-color);
  }
  
  .about {
@@ -80,7 +87,7 @@ body {
  .about-row {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.436);
+    background-color: var(--tr-black-color);
     padding-right: 30px;
  }
  
@@ -97,28 +104,28 @@ body {
  .about-title {
     font-size: 48px;
     font-weight: 900;
-    color: #fff;
+    color: var(--white-color);
     margin: 0px 0px 15px 0px;
  }
  .about-text {
-    color: rgb(201, 201, 201);
+    color: var(--grey-color);
     font-size: 22px;
     font-weight: bold;
     margin: 0px 0px 20px 0px;
  }
  .about-btn {
-    color: #fff;
-    background-color: #ee447d;
+    color: var(--white-color);
+    background-color: var(--dark-pink-color);
     padding: 10px 30px;
     border-radius: 10px;
  }
  .about-btn:hover {
-    background-color: #2d68c7;
+    background-color: var(--light-blue-color);
  }
  
  .about-btn:active {
-    background-color: #fff;
-    color: #3882f6;
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
  }
  
  .information {
@@ -145,12 +152,12 @@ body {
     height: 200px;
     background: url('img/city_03.jpg') center / cover;
     border-radius: 10%;
-    border: 5px solid #000;
+    border: 5px solid var(--black-color);
     margin: 0px 0px 10px 0px;
  }
  
  .information-image:hover {
-    box-shadow: 0px 0px 7px #000
+    box-shadow: 0px 0px 7px var(--black-color);
  }
  
  .information-text {
@@ -160,7 +167,7 @@ body {
  }
  
  .quote {
-    background-color: #e5e7eb;
+    background-color: var(--white-grey-color);
     padding: 80px 0 70px;
  }
  .quote-text {
@@ -180,7 +187,7 @@ body {
  }
  
  .sign-up-block {
-    background-color: #ee447d;
+    background-color: var(--dark-pink-color);
     padding: 60px;
     border-radius: 10px;
     display: flex;
@@ -188,7 +195,7 @@ body {
     justify-content: space-between;
  }
  .sign-up-text {
-    color: #fff;
+    color: var(--white-color);
     font-size: 18px;
  }
  .sign-up-title {
@@ -197,7 +204,7 @@ body {
     margin: 0px 0px 5px 0px;
  }
  .sign-up-btn {
-    color: #fff;
+    color: var(--white-color);
     font-size: 22px;
     border: 2px solid #fff;
     border-radius: 10px;
@@ -222,16 +229,18 @@ body {
  .footer-text {
     color: #fff;
     margin-top: -20px;
-    padding-bottom: 0px;;
+    padding-bottom: 0px;
  }
  .span-name {
     color: #ff3377;
  }
  .span-name:hover {
     color: #2d68c7;
+    cursor: pointer;
  }
  .span-name-odin {
     color:#75aaff;
+    
  }
  .span-name-odin:hover {
     color: #ff3377; 
