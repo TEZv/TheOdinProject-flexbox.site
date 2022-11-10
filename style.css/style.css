@@ -1,12 +1,15 @@
 :root {
     --black-color: #000;
     --tr-black-color: rgba(0, 0, 0, 0.436);
+    --light-black-color: #131c2c;
     --white-color: #fff;
     --white-grey-color: #e5e7eb;
     --grey-color: rgb(201, 201, 201);
-    --dark-pink-color: #ee447d;
+    --light-pink-color: #ee447d;
+    --pink-color: #ff3377;
     --light-blue-color: #2d68c7;
     --dark-blue-color: #3882f6;
+    --soft-blue-color: #75aaff;
 }
 
 body {
@@ -115,7 +118,7 @@ body {
  }
  .about-btn {
     color: var(--white-color);
-    background-color: var(--dark-pink-color);
+    background-color: var(--light-pink-color);
     padding: 10px 30px;
     border-radius: 10px;
  }
@@ -187,7 +190,7 @@ body {
  }
  
  .sign-up-block {
-    background-color: var(--dark-pink-color);
+    background-color: var(--light-pink-color);
     padding: 60px;
     border-radius: 10px;
     display: flex;
@@ -206,42 +209,42 @@ body {
  .sign-up-btn {
     color: var(--white-color);
     font-size: 22px;
-    border: 2px solid #fff;
+    border: 2px solid var(--white-color);
     border-radius: 10px;
     padding: 10px 40px;
  }
  
  .sign-up-btn:hover {
-    background-color: #2d68c7;
+    background-color: var(--light-blue-color);
  }
  
  .sign-up-btn:active {
-    background-color: #fff;
-    color: #3882f6;
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
  }
  
  footer {
     padding: 40px;
-    background-color: #131c2c;
+    background-color: var(--light-black-color);
     text-align: center;
     padding-bottom: 1px;
  }
  .footer-text {
-    color: #fff;
+    color: var(--white-color);
     margin-top: -20px;
     padding-bottom: 0px;
  }
  .span-name {
-    color: #ff3377;
+    color: var(--pink-color);
  }
  .span-name:hover {
-    color: #2d68c7;
+    color: var(--light-blue-color);
     cursor: pointer;
  }
  .span-name-odin {
-    color:#75aaff;
+    color:
     
  }
  .span-name-odin:hover {
-    color: #ff3377; 
+    color: var(--pink-color);
  }
