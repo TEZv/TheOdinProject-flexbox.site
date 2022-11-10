@@ -15,141 +15,141 @@
 body {
     margin: 0;
     font-family: sans-serif;
- }
+}
  
- a {
+a {
     text-decoration: none;
- }
+}
  
- ul {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
- }
+}
  
- .container {
+.container {
     max-width: 1100px;
     margin: 0 auto;
- }
+}
  
- .top {
+.top {
     background: url('img/monitor_andkeyboard.jpg') center / cover fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
- }
+}
  
- .header {
+.header {
     padding: 20px;
- }
+}
  
  .header-row {
     display: flex;
     justify-content: space-between;
- }
+}
  
- .header-logo {
+.header-logo {
     display: block;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background: url('img/logo.jpg') center / cover;
- }
+}
  
- .header-menu {
+.header-menu {
     display: flex;
     align-items: center;
     gap: 25px;
- }
+}
  
- .header-link {
+.header-link {
     font-size: 24px;
     font-weight: bold;
- }
+}
  
- .header-link:hover {
+.header-link:hover {
     margin-bottom: -2px;
- }
+}
  
- .header-link:hover:after {
+.header-link:hover:after {
     content: '';
     display: block;
     width: auto;
     height: 2px;
     background-color: var(--black-color);
- }
+}
  
- .about {
+.about {
     padding: 40px;
     height: auto;
     flex: 1 0 auto;
     display: flex;
     align-items: center;
- }
+}
  
- .about-row {
+.about-row {
     display: flex;
     justify-content: space-between;
     background-color: var(--tr-black-color);
     padding-right: 30px;
- }
+}
  
- .about-image {
+.about-image {
     background: url('img/city_02.jpg') center / cover;
     width: 500px;
     height: 300px;
     flex: 0 1 auto;
- }
- .about-content {
+}
+.about-content {
     text-align: right;
     flex: 0 1 500px;
- }
- .about-title {
+}
+.about-title {
     font-size: 48px;
     font-weight: 900;
     color: var(--white-color);
     margin: 0px 0px 15px 0px;
- }
- .about-text {
+}
+.about-text {
     color: var(--grey-color);
     font-size: 22px;
     font-weight: bold;
     margin: 0px 0px 20px 0px;
- }
- .about-btn {
+}
+.about-btn {
     color: var(--white-color);
     background-color: var(--light-pink-color);
     padding: 10px 30px;
     border-radius: 10px;
- }
- .about-btn:hover {
+}
+.about-btn:hover {
     background-color: var(--light-blue-color);
- }
+}
  
- .about-btn:active {
+.about-btn:active {
     background-color: var(--white-color);
     color: var(--dark-blue-color);
- }
+}
  
- .information {
+.information {
     text-align: center;
     padding: 40px 0 80px;
- }
- .information-title {
+}
+.information-title {
     font-size: 36px;
     font-weight: 900;
     padding: 0px 0px 40px 0px;
- }
+}
  
- .information-row {
+.information-row {
     display: flex;
     justify-content: space-between;
- }
+}
  
- .information-column {
+.information-column {
     text-align: center;
- }
- .information-image {
+}
+.information-image {
     display: inline-block;
     width: 200px;
     height: 200px;
@@ -157,94 +157,94 @@ body {
     border-radius: 10%;
     border: 5px solid var(--black-color);
     margin: 0px 0px 10px 0px;
- }
+}
  
- .information-image:hover {
+.information-image:hover {
     box-shadow: 0px 0px 7px var(--black-color);
- }
+}
  
- .information-text {
+.information-text {
     font-size: 16px;
     font-weight: bold;
     max-width: 200px;
- }
+}
  
- .quote {
+.quote {
     background-color: var(--white-grey-color);
     padding: 80px 0 70px;
- }
- .quote-text {
+}
+.quote-text {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
- }
- .quote-author {
+}
+.quote-author {
     text-align: right;
     font-size: 18px;
     font-weight: 900;
     margin: 20px 0px 0px 0px;
- }
+}
  
- .sign-up {
+.sign-up {
     padding: 100px;
- }
+}
  
- .sign-up-block {
+.sign-up-block {
     background-color: var(--light-pink-color);
     padding: 60px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
- }
- .sign-up-text {
+}
+.sign-up-text {
     color: var(--white-color);
     font-size: 18px;
- }
- .sign-up-title {
+}
+.sign-up-title {
     font-weight: bold;
     font-size: 28px;
     margin: 0px 0px 5px 0px;
- }
- .sign-up-btn {
+}
+.sign-up-btn {
     color: var(--white-color);
     font-size: 22px;
     border: 2px solid var(--white-color);
     border-radius: 10px;
     padding: 10px 40px;
- }
+}
  
- .sign-up-btn:hover {
+.sign-up-btn:hover {
     background-color: var(--light-blue-color);
- }
+}
  
- .sign-up-btn:active {
+.sign-up-btn:active {
     background-color: var(--white-color);
     color: var(--dark-blue-color);
- }
+}
  
- footer {
+footer {
     padding: 40px;
     background-color: var(--light-black-color);
     text-align: center;
     padding-bottom: 1px;
- }
- .footer-text {
+}
+.footer-text {
     color: var(--white-color);
     margin-top: -20px;
     padding-bottom: 0px;
- }
- .span-name {
+}
+.span-name {
     color: var(--pink-color);
- }
- .span-name:hover {
+}
+.span-name:hover {
     color: var(--light-blue-color);
     cursor: pointer;
- }
+}
  .span-name-odin {
-    color:
+    color: var(--soft-blue-color);
     
- }
- .span-name-odin:hover {
+}
+.span-name-odin:hover {
     color: var(--pink-color);
- }
+}
