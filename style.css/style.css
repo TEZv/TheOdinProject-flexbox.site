@@ -1,188 +1,238 @@
-*{
-    font-family: Helvetica, sans-serif;
+:root {
+    
 }
-body{
+
+body {
     margin: 0;
-    font-size: 2vw;
-}
-
-a{
+    font-family: sans-serif;
+ }
+ 
+ a {
     text-decoration: none;
-    color: white;
-}
-header{
-    width: 80%;
-    display:flex;
+ }
+ 
+ ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .container {
+    max-width: 1100px;
+    margin: 0 auto;
+ }
+ 
+ .top {
+    background: url('img/monitor_andkeyboard.jpg') center / cover fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .header {
+    padding: 20px;
+ }
+ 
+ .header-row {
+    display: flex;
     justify-content: space-between;
+ }
+ 
+ .header-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('img/logo.jpg') center / cover;
+ }
+ 
+ .header-menu {
+    display: flex;
     align-items: center;
-    background-color: #1f2937;
-    color:white;
-    padding: 1% 10%;
-}
-.logo{
-    border: 1px solid white;
-    border-radius: 100%;
-    height:10vw;
-    width: 10vw;
-    overflow: hidden;
-}
-.logo-image{
-    position: relative;
-    top:-13.5vw;
-    left:-15.0vw;
-    width: 350%;
+    gap: 25px;
+ }
+ 
+ .header-link {
+    font-size: 24px;
+    font-weight: bold;
+ }
+ 
+ .header-link:hover {
+    margin-bottom: -2px;
+ }
+ 
+ .header-link:hover:after {
+    content: '';
+    display: block;
+    width: auto;
+    height: 2px;
+    background-color: #000;
+ }
+ 
+ .about {
+    padding: 40px;
     height: auto;
-}
-
-.links{
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .about-row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 2vw;
-}
-
-.photo{
-    background-color: #6d747d;
-    width: 150vw;
-    height: 17.5vw;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.photo-image{
-    width: 100%;
-}
-
-footer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1f2937;
-    color:white;
-}
-.intro{
-    display: flex;
-    background-color: #1f2937;
-    color: white;
-    padding: 5% 10%;
-    justify-content: space-between;
-    align-items: center;
-    gap: 3vw;
-}
-
-.explain{
-    display:flex;
-    flex-direction: column;
-}
-
-.title{
-    font-size: 4.5vw;
+    background-color: rgba(0, 0, 0, 0.436);
+    padding-right: 30px;
+ }
+ 
+ .about-image {
+    background: url('img/city_02.jpg') center / cover;
+    width: 500px;
+    height: 300px;
+    flex: 0 1 auto;
+ }
+ .about-content {
+    text-align: right;
+    flex: 0 1 500px;
+ }
+ .about-title {
+    font-size: 48px;
     font-weight: 900;
-}
-
-.signup-link{
-    justify-self: start;
-    align-self: start;
-    background-color: #3b82f6;
-    border-radius: 1vw;
-    font-weight: 900;
-    padding: 1vw 3vw;
-}
-.bottom{
-    border: .3vw solid white;
-}
-.info-squares{
-    display:flex;
-    flex-direction: column;
-    padding: 5% 0%;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards{
-    display:flex;
-    flex-direction: column;
-}
-
-.card-container{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 3vw;
-}
-.squares{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5vw 0;
-}
-.square-photo{
-    width: 17vw;
-    height: 17vw;    
-    border: .3vw solid blue;
-    border-radius: 2vw;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-.square-photo-photo-1{
-    position: relative;
-    left: -3vw;
-    width: 40vw;
-}
-.square-photo-photo-2{
-    position: relative;
-    left: 2.5vw;
-    top: 2vw;
-    width: 25vw;
-}
-.square-photo-photo-3{
-    position: relative;
-    left: -14vw;
-    top: -6vw;
-    height: 30vw;
-}
-.square-photo-photo-4{
-    position: relative;
-    left: 1vw;
-    top: -3vw;
-    height: 50vw;
-}
-.square-info{
+    color: #fff;
+    margin: 0px 0px 15px 0px;
+ }
+ .about-text {
+    color: rgb(201, 201, 201);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+ }
+ .about-btn {
+    color: #fff;
+    background-color: #ee447d;
+    padding: 10px 30px;
+    border-radius: 10px;
+ }
+ .about-btn:hover {
+    background-color: #2d68c7;
+ }
+ 
+ .about-btn:active {
+    background-color: #fff;
+    color: #3882f6;
+ }
+ 
+ .information {
     text-align: center;
-}
-.quote{
+    padding: 40px 0 80px;
+ }
+ .information-title {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0px 0px 40px 0px;
+ }
+ 
+ .information-row {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .information-column {
+    text-align: center;
+ }
+ .information-image {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: url('img/city_03.jpg') center / cover;
+    border-radius: 10%;
+    border: 5px solid #000;
+    margin: 0px 0px 10px 0px;
+ }
+ 
+ .information-image:hover {
+    box-shadow: 0px 0px 7px #000
+ }
+ 
+ .information-text {
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 200px;
+ }
+ 
+ .quote {
     background-color: #e5e7eb;
-    display:flex;
-    flex-direction: column;
-    padding: 10%;
-}
-
-.text{
-    text-align: center;
-    font-size: 3.5vw;
+    padding: 80px 0 70px;
+ }
+ .quote-text {
+    font-size: 36px;
+    font-weight: light;
     font-style: italic;
-    color: #1f2937
-}
-
-.author{
-    align-self: flex-end;
+ }
+ .quote-author {
+    text-align: right;
+    font-size: 18px;
     font-weight: 900;
-}
-.bottom-signup{
-    padding:5% 10%;
-}
-.bottom-container{
-    display:flex;
-    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+ }
+ 
+ .sign-up {
+    padding: 100px;
+ }
+ 
+ .sign-up-block {
+    background-color: #ee447d;
+    padding: 60px;
+    border-radius: 10px;
+    display: flex;
     align-items: center;
-    background-color: #3b82f6;
-    color: white;
-    padding: 5%;
-    border-radius: 1vw;
-}
-.l-cont-title{
-    font-weight: 900;
-}
+    justify-content: space-between;
+ }
+ .sign-up-text {
+    color: #fff;
+    font-size: 18px;
+ }
+ .sign-up-title {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px 0px 5px 0px;
+ }
+ .sign-up-btn {
+    color: #fff;
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px 40px;
+ }
+ 
+ .sign-up-btn:hover {
+    background-color: #2d68c7;
+ }
+ 
+ .sign-up-btn:active {
+    background-color: #fff;
+    color: #3882f6;
+ }
+ 
+ footer {
+    padding: 40px;
+    background-color: #131c2c;
+    text-align: center;
+    padding-bottom: 1px;
+ }
+ .footer-text {
+    color: #fff;
+    margin-top: -20px;
+    padding-bottom: 0px;;
+ }
+ .span-name {
+    color: #ff3377;
+ }
+ .span-name:hover {
+    color: #2d68c7;
+ }
+ .span-name-odin {
+    color:#75aaff;
+ }
+ .span-name-odin:hover {
+    color: #ff3377; 
+ }
