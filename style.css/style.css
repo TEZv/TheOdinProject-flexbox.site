@@ -34,7 +34,6 @@ ul {
     max-width: 1100px;
     margin: 0 auto;
 }
- 
 .top {
     height: 100vh;
     display: flex;
@@ -45,7 +44,11 @@ ul {
     display: flex;
     flex-direction: column;
 }
- 
+.header-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 .header {
     padding: 20px;
 }
@@ -233,6 +236,11 @@ em:hover {
     border-radius: 10px;
     border: 1px solid var(--black-color);
 }
+.sign-up-comment:hover {
+    box-shadow: 0px 0px 18px var(--white-grey-color);
+    
+
+}
 .sign-up-text {
     color: var(--white-color);
     font-size: 18px;
@@ -248,6 +256,7 @@ em:hover {
     border: 2px solid var(--white-color);
     border-radius: 10px;
     padding: 10px 40px;
+    cursor: pointer;
 }
  
 .sign-up-btn:hover {
@@ -284,3 +293,6 @@ footer {
 .span-name-odin:hover {
     color: var(--pink-color);
 }
+
+ 
+  
