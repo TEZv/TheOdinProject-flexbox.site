@@ -139,8 +139,9 @@ q {
   background-color: var(--light-pink-color);
   padding: 12px 30px;
   border-radius: 10px;
-  font-size: 16pt;
+  font-size: 20px;
   cursor: pointer;
+  position: inherit;
 }
 .about-btn:hover {
   background-color: var(--light-blue-color);
