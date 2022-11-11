@@ -139,6 +139,7 @@ q {
   padding: 10px 30px;
   border-radius: 10px;
   font-size: 16pt;
+  cursor: pointer;
 }
 .about-btn:hover {
   background-color: var(--light-blue-color);
@@ -226,8 +227,7 @@ em:hover {
   padding: 55px;
 }
 
-.comm-block {
-    
+.comm-block { 
   background-color: var(--light-pink-color);
   padding: 40px;
   border-radius: 10px;
