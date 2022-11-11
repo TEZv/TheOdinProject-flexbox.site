@@ -26,6 +26,11 @@ ul {
     padding: 0;
     margin: 0;
 }
+li {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 .img {
     cursor: pointer;
     border-radius: 15px;
@@ -114,7 +119,7 @@ ul {
 }
 .about-content {
     text-align: right;
-    flex: 0 1 500px;
+    flex: 0 1 990px;
 }
 .about-title {
     font-size: 48px;
@@ -126,13 +131,14 @@ ul {
     color: var(--grey-color);
     font-size: 22px;
     font-weight: bold;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px 30px 0px;
 }
 .about-btn {
     color: var(--white-color);
     background-color: var(--light-pink-color);
     padding: 10px 30px;
     border-radius: 10px;
+    font-size: 16pt;
 }
 .about-btn:hover {
     background-color: var(--light-blue-color);
@@ -155,12 +161,12 @@ ul {
  
 .information-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
  
-.information-column {
-    text-align: center;
-}
+/*.information-column:hover {
+    padding: 10px;
+}*/
 .information-image {
     display: inline-block;
     width: 200px;
@@ -173,12 +179,14 @@ ul {
  
 .information-image:hover {
     box-shadow: 0px 0px 7px var(--black-color);
+    padding: 8px;
 }
  
 .information-text {
     font-size: 16px;
     font-weight: bold;
     max-width: 200px;
+    align-self: center;
 }
 em:hover {
     color: var(--light-blue-color);
@@ -238,8 +246,6 @@ em:hover {
 }
 .sign-up-comment:hover {
     box-shadow: 0px 0px 18px var(--white-grey-color);
-    
-
 }
 .sign-up-text {
     color: var(--white-color);
@@ -255,8 +261,11 @@ em:hover {
     font-size: 22px;
     border: 2px solid var(--white-color);
     border-radius: 10px;
-    padding: 10px 40px;
+    padding: 10px 10px;
     cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 15px;
 }
  
 .sign-up-btn:hover {
@@ -286,12 +295,19 @@ footer {
     color: var(--light-blue-color);
     cursor: pointer;
 }
- .span-name-odin {
+.span-name-odin {
     color: var(--soft-blue-color);
     
 }
 .span-name-odin:hover {
     color: var(--pink-color);
+}
+.span-name-learn {
+    color: var(--soft-blue-color);
+    
+}
+.span-name-learn:hover {
+    color: var(--dark-blue-color);
 }
 
  
