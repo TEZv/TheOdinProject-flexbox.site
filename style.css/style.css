@@ -94,7 +94,7 @@ q {
   display: block;
   width: auto;
   height: 2px;
-  background-color: var(--black-color);
+  background-color: var(--white-grey-color);
 }
 
 .about {
@@ -223,12 +223,13 @@ em:hover {
   padding-left: 60px;
 }
 .comm-up {
-  padding: 100px;
+  padding: 55px;
 }
 
 .comm-block {
+    
   background-color: var(--light-pink-color);
-  padding: 60px;
+  padding: 40px;
   border-radius: 10px;
   display: flex;
   align-items: center;
