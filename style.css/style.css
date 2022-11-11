@@ -31,6 +31,9 @@ li {
     flex-direction: column;
     align-content: center;
 }
+q {
+    text-align: center;
+}
 .img {
     cursor: pointer;
     border-radius: 15px;
@@ -201,8 +204,7 @@ em:hover {
     font-weight: light;
     font-style: italic;
     color: var(--white-grey-color);
-    padding-left: 60px;
-    
+    text-align: center;
 }
 .quote-author {
     font-size: 18px;
@@ -210,21 +212,16 @@ em:hover {
     margin: 20px 0px 0px 0px;
     color: var(--pink-color);
     background-color: var(--white-grey-color);
-    margin-left: 800px;
-}
-.div-container {
-    display: flex;
-    gap: 30px;
-}
-.quote-div {
-    background-color: var(--white-grey-color);
-    
+    margin-left: 795px;
 }
 .quote-container {
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: auto;
+    padding-left: 40px;
 }
- 
+.quote-move {
+    padding-left: 60px;
+}
 .sign-up {
     padding: 100px;
 }
@@ -307,7 +304,7 @@ footer {
     
 }
 .span-name-learn:hover {
-    color: var(--dark-blue-color);
+    color: var(--grey-color)
 }
 
  
