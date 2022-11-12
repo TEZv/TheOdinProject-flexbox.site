@@ -245,7 +245,7 @@ em:hover {
   border: 1px solid var(--black-color);
 }
 .comm-comment:hover {
-  box-shadow: 0px 0px 18px var(--white-grey-color);
+  box-shadow: 0px 0px 18px black;
 }
 .comm-text {
   color: var(--white-color);
